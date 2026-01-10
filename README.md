@@ -1,2 +1,37 @@
 # ANCHORS_DataScience_ISFA2026
 Code Anchors (GLM,RF,XGBoost)
+
+# PROJET Groupe Anchors
+Laurent 
+Inchirah
+Erwann
+Wei
+Yannick
+
+Ce projet se base sur le dataset freMTPLfreq, disponible dans le dépôt GitHub associé.
+
+Le projet contient 3 scripts principaux, chacun dédié à un modèle : 
+
+=>  GLM (Generalized Linear Model)
+=>  Random Forest
+=>  XGBoost
+
+Pour exécuter chaque script il faut télécharger le dataset freMTPLfreq.csv depuis le depôt GitHub puis modifier le chemin du fichier en début de script pour indiquer l'emplacementr local du dataset.
+
+
+# SetUp 
+
+Python 3.10 environnement glm
+
+# packages 
+pandas as pd
+numpy as np 
+sklearn.preprocessing import StandardScaler 
+statsmodels as sm
+alibi.explainers import AnchorTabular
+pprint
+matplotlib
+re
+xgboost
+
+Nous vous remercions et restons à votre disposition pour tout rensiegnement complémentaire.
